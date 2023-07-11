@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Eventos do DOM no Javascript</title>
+  </head>
+  <body>
+    <h1>EVENTOS DO DOM NO JAVASCRIPT</h1>
+
+    <h2>Tipos de eventos mais importante no JavaScript</h2>
+    <h4>Eventos de Mouse</h4>
+    <ul>
+      <li>click => Ocorre quando um elemento e clicado</li>
+      <button id="MouseClick">Clique em mim!</button>
+      <hr />
+      <li>
+        mouseover => Ocorre quando o ponteiro do mouse entre em contato com um
+        elemento
+      </li>
+      <button id="MouseMouseOver">Passe o mouse sobre mim!</button>
+      <hr />
+      <li>mouseout => ocorre quando o ponteiro do mouse sai de um elemento.</li>
+      <button id="MouseMouseOut">Tire o ponteiro do mouse de mim!</button>
+      <hr />
+      <li>
+        mousemove: ocorre quando o ponteiro do mouse é movido dentro de um
+        elemento.
+      </li>
+      <button id="MouseMouseMove">
+        Mova o ponteiro do mouse dentro de mim!
+      </button>
+    </ul>
+    <h4>Eventos de Teclado</h4>
+    <ul>
+      <li>keydown => Ocorre quando uma tecla é pressionada.</li>
+      <li>keyup => Ocorre quando uma tecla é liberada.</li>
+      <li>keypress => Ocorre quando uma tecla é pressionada e liberada.</li>
+    </ul>
+    <h4>Eventos de Formulario</h4>
+    <ul>
+      <li>submit => Ocorre quando um formulário é submetido.</li>
+      <li>focus => Ocorre quando um elemento de formulário recebe o foco.</li>
+      <li>blur => Ocorre quando um elemento de formulário perde o foco.</li>
+      <li>
+        change => Ocorre quando o valor de um elemento de formulário é alterado.
+      </li>
+      <li>
+        input => Ocorre quando o valor de um elemento de entrada é alterado.
+      </li>
+    </ul>
+    <h4>Eventos de Janela</h4>
+    <ul>
+      <li>load => Ocorre quando a página é totalmente carregada.</li>
+      <li>resize => Ocorre quando a janela do navegador é redimensionada.</li>
+      <li>scroll => Ocorre quando o conteúdo da página é rolado.</li>
+    </ul>
+    <h4>Eventos de Tempo</h4>
+    <ul>
+      <li>setTimeout => Ocorre após um intervalo de tempo especificado.</li>
+      <li>setInterval => Ocorre em intervalos de tempo regulares.</li>
+    </ul>
+    <h4>Para adicionar e remover um evento de um elemento</h4>
+    <ul>
+      <li>
+        addEventListener => Usada para adicionar o evento no elemento HTML.
+      </li>
+      <li>
+        removeEventListener => Usada para remover o evento no elemento HTML.
+      </li>
+    </ul>
+    <h4>Localizando elementos html</h4>
+    <ul>
+      <li>document.getElementById => Localizar elementos pelo Id</li>
+      <li>document.getElementsByTagName => Localizar elementos pela Tag</li>
+      <li>
+        document.getElementsByClassName => Localizar elementos pela classe do
+        elemento
+      </li>
+      <li>
+        document.querySelectorAll => Localizar elementos atraves de todos os
+        seletor do css
+      </li>
+      <li>
+        document.querySelector => Localizar elementos atraves de seletores do
+        css
+      </li>
+    </ul>
+    <h4>Alterando estilo do HTML</h4>
+    <ul>
+      <li>document.style.color => Altera a cor da fonte do elemento.</li>
+      <li>
+        document.style.backgroundColor => Altera a cor de fundo do elemento
+      </li>
+      <li>document.style.fontSize => Altera o tamanho da fonte do projeto.</li>
+      <li>document.style.marginLeft => Altera o tamanho da margem esquerda.</li>
+      <li>document.style.marginRight => Altera o tamanho da margem direita</li>
+      <li>
+        document.style.padding => Altera o padding de todos os lados do
+        elemento.
+      </li>
+    </ul>
+    <p id="paragraph">
+      Obs: Ao manipular o estilo pelo DOM do JavaScript, usamos as mesmas
+      propriedade que usamos quando manipulamos o estilo pelo Css.
+    </p>
+    <h4>Manipulando atributos com JavaScript</h4>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
